@@ -1,0 +1,149 @@
+header, section, footer, aside, nav, article, figure, figcaption{display: block}
+body{
+    background-color: #aaaaaa;
+}
+
+div#homePage{
+    position: relative;
+    margin:15px auto;
+    width:1600px;
+    height:1000px;
+    background-color: #eeeeee;
+}
+header{
+    background-image: url("../image/header.jpg");
+}
+div.logo{
+    margin: 0px;
+    height: 760px;
+}
+nav ul{
+    margin: 0px;
+    padding-top: 4px;
+    height: 36px;
+}
+nav li{
+    display: inline;
+}
+a.navigationBar {
+    display:inline-block;
+    color: black;
+    background-color: #eeeeee;
+    width: 80px;
+    height: 20px;
+    padding: 5px 0;	
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);	
+    margin-right: 50px;	
+    text-align: center;
+}
+a:hover {
+    background-color: #333333;
+    color: #eeeeee;
+}
+#welcome{
+    width: 600px;
+    margin: 0px auto;
+    padding-left: 10px;
+    line-height: 1.2em;
+}
+footer{
+    position: absolute;
+    margin-top: 30px;
+    width: 100%;
+    bottom: 0;
+    height: 20px;
+    background-color: #333333;
+    color: #eeeeee;
+}
+#resumePage{
+    position: relative;
+    margin:15px auto;
+    width:1600px;
+    height:1000px;
+    background-color: #eeeeee;
+}
+#resumeImageLeft{
+    margin-top: 20px;
+    float:left;
+    width: 600px;
+    height: 900px;
+    background-image: url("../image/resumeImageLeft.jpg");
+}
+#resume{
+    margin-top: 20px;
+    float:left;
+    width: 390px;
+    height: 900px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+h1{
+    text-align: center;
+    color: #555555;
+}
+h2{
+    text-align: center;
+}
+#resumeImageRight{
+    margin-top: 20px;
+    float:left;
+    width: 600px;
+    height: 900px;
+    background-image: url("../image/resumeImageRight.jpg");
+}
+#portfolioPage{
+    position: relative;
+    margin:15px auto;
+    width:1600px;
+    height:1505px;
+    background-color: #eeeeee;
+}
+#portfolio1{
+    margin: 10px 5px 5px 10px;
+    float:left;
+    height: 465px;
+    width: 783px;
+    text-align: center;
+    border: 1px solid #888888;
+}
+#portfolio2{
+    margin: 10px 10px 5px 5px;
+    float:left;
+    height: 465px;
+    width: 783px;
+    text-align: center;
+    border: 1px solid #888888;
+}
+#portfolio3{
+    margin: 5px 5px 5px 10px;
+    float:left;
+    height: 465px;
+    width: 783px;
+    text-align: center;
+    border: 1px solid #888888;
+}
+#portfolio4{
+    margin: 5px 10px 10px 5px;
+    float:left;
+    height: 465px;
+    width: 783px;
+    text-align: center;
+    border: 1px solid #888888;
+}
+#portfolio5{
+    margin: 0px 5px 10px 10px;
+    float:left;
+    height: 465px;
+    width: 783px;
+    text-align: center;
+    border: 1px solid #888888;
+}
+#portfolio6{
+    margin: 0px 10px 10px 5px;
+    float:left;
+    height: 465px;
+    width: 783px;
+    text-align: center;
+    border: 1px solid #888888;
+}

@@ -1,0 +1,61 @@
+body{
+    background-color: #dddddd;
+}
+div.area{
+    margin:50px auto;
+    padding: 50px 0 100px 0;
+    border-radius:100px;
+    background-color: #ffffff;
+    width:600px;
+
+}
+h1{
+    font-size:2em;
+    text-align: center;
+}
+.title{
+    color: blue;
+}
+.introduction{
+    color: goldenrod;
+}
+P{
+    font-size:1.2em;
+    text-align: center;
+}
+.introducerule{
+    color:#f54654;
+}
+input{
+    font-size:1.2em;
+    background-color: #dddddd;
+    color: #000000;
+}
+div#welcomegame {
+    width:600px;
+    height:550px;
+    margin:0 auto;
+    padding: 50px 0 0 0;
+    text-align: center;
+}
+div#game {
+    width:600px;
+    height:600px;
+    margin:0 auto;
+    display: none;      
+    text-align: center;
+}
+div.resultarea{
+    width:460px;
+    height:150px;
+    margin:0 auto;
+    color:#7344a3;
+}
+div#end {
+    width:600px;
+    height:500px;
+    padding:100px 0px 0px 0px;
+    margin:0 auto;
+    display: none;
+    text-align: center;
+}

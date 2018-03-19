@@ -1,0 +1,69 @@
+body {
+    margin: 40px auto;
+    width:700px;
+    line-height:150%;
+    font-size:1.1em;
+}
+form{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7daddd;
+    padding: 40px;
+}
+fieldset{
+    border-color:#7daddd;
+}
+.qty{
+    left: 150px;
+    width:100px;
+}
+.size{
+    margin-left: 37px;
+    left: 155px;
+    height: 25px;
+    width:200px;
+}
+.base,.cheese, .meat, .veggies{
+    background-color:#eeeeee;
+}
+.email{
+    left: 150px;
+    width:250px;
+}
+.name{
+    margin-left: 26px;
+    left: 150px;
+    width:250px;     
+}
+.address{
+    margin-left: 10px;
+    left: 150px;
+    width:250px;     
+}
+.city{
+    margin-left: 38px;
+    left: 150px;
+    width:200px;     
+}
+.tel{
+    margin-left: 23px;
+    left: 150px;
+    width:200px;     
+}
+.pizza{
+    padding:10px 10px 20px 10px;
+}
+.customer{
+    padding:10px 10px 20px 10px;
+}
+input{
+    border-color:#333333;
+    margin:auto auto auto 5px;
+    height: 20px;
+}
+select{
+    border:2px solid #333333;
+}
+textarea{
+    border:2px solid #333333;
+}

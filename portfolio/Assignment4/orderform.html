@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Speedi-Drone Pizza Order Form</title>
+    <link href="orderform.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <form action="http://forms.miketackett.dx.am/pizzaOrder.php" method="GET" name="OrderForm">
+      <header>
+        <h2>
+        "Speedi-Drone Pizza" Custom Pizza Order Form
+        </h2>
+        <p>
+        Design your very own pizza with this handy online order form. We'll <br>have it dropped in your lab in 10 minutes or less or your name isn't<br> <b><i>Speedi-Drone Pizza!</i></b>
+        </p>
+      </header>
+      <fieldset class="pizza">
+          <legend>
+        Pizza Details
+          </legend>
+        <label>Quantity: <input class="qty" type="number" name="qty" min="1" step="1" required="required" /></label>
+        <br><br>
+          <label>
+            Size: <select class="size" name="size" id="size">
+            <option value="4">Personal 4 slices</option>
+            <option value="6">Small 6 slices</option>
+            <option value="8">Medium 8 slices</option>
+            <option value="10">Large 10 slices</option>
+            <option value="12">Glutton 12 slices</option>
+            </select><br><br>
+         </label>
+         <fieldset class="base">
+            <legend>
+              Bases(choose one):
+            </legend>
+              <label><input type="radio" name="base" value="red sauce"/> Red sauce</label>
+              <label><input type="radio" name="base" value="white sauce"/> White sauce</label>
+              <label><input type="radio" name="base" value="BBQ sauce"/> BBQ sauce</label>
+              <label><input type="radio" name="base" value="garlic rub"/> Garlic rub</label>
+              <label><input type="radio" name="base" value="pesto base"/> Pesto base<br></label>
+              <label><input type="radio" name="base" value="castor oil"/> Castor oil</label>
+         </fieldset>
+         <fieldset  class="cheese">
+          <legend>
+            Cheeses (choose as many as you want):
+          </legend>
+            <label><input type="checkbox" name="cheese[ ]" value="mozzarella" checked="checked"/> Mozzarella</label>
+            <label><input type="checkbox" name="cheese[ ]" value="parmesan"/> Parmesan</label>
+            <label> <input type="checkbox" name="cheese[ ]" value="gorgonzola"/> Gorgonzola</label>
+            <label> <input type="checkbox" name="cheese[ ]" value="asiago"/> Asiago</label>
+            <label> <input type="checkbox" name="cheese[ ]" value="limburger"/> Limburger</label>
+         </fieldset>
+         <fieldset class="meat">
+          <legend>
+            Meats (choose as many as you want):
+          </legend>
+            <label><input type="checkbox" name="meat[ ]" value="pepperoni" checked="checked"/> Pepperoni</label>
+            <label> <input type="checkbox" name="meat[ ]" value="italiansausage"/> Italian Sausage</label>
+            <label> <input type="checkbox" name="meat[ ]" value="canadianbacon"/> Canadian Bacon</label>
+            <label> <input type="checkbox" name="meat[ ]" value="groundbeef"/> Ground Beef</label>
+            <br>
+            <label>  <input type="checkbox" name="meat[ ]" value="limburger"/> Limburger</label>
+        </fieldset>
+        <fieldset class="veggies">
+          <legend>
+            Veggies (choose as many as you want):
+          </legend>
+          <label><input type="checkbox" name="veggies[ ]" value="greenpeppers"/> Green Peppers</label>
+          <label><input type="checkbox" name="veggies[ ]" value="mushrooms"/> Mushrooms</label>
+          <label> <input type="checkbox" name="veggies[ ]" value="onion"/> Onion</label>
+          <label> <input type="checkbox" name="veggies[ ]" value="pineapple"/> Pineapple</label>
+          <label>  <input type="checkbox" name="veggies[ ]" value="jalapenos"/> Jalapenos</label>
+        </fieldset>
+      </fieldset>
+      <br>
+      <fieldset class="customer">
+        <legend>
+          Customer Information
+        </legend>
+        <fieldset>
+          <legend>
+            Important!
+          </legend>
+          <label>
+            Enter a valid e-mail address. Receipts and junk mail will be sent to this address:<br>
+            Email: <input class="email" type="email" name="emailaddress" size="30" maxlength="100" required="required" autofocus="autofocus">
+          </label>
+        </fieldset>
+        <br>
+        <label>Name:<input class="name" type="text" name="customername" size="30" maxlength="100" required="required"><br></label><br>
+        <label>Address:<input class="address" type="text" name="address" size="30" maxlength="100" required="required"><br></label><br>
+        <label>City:<input class="city" type="text" name="city" size="30" maxlength="100" required="required"><br></label><br>
+        <label>Phone:<input class="tel" type="tel" name="phone" size="30" maxlength="100" required="required"><br></label>
+      </fieldset>
+      <p>
+      <label for="comments">
+      Tell us how we're doing. If we like your comments, we'll send you a free Speedi-Drone plush toy!<br>
+      <br>
+      <textarea name="comments" rows="5" cols="65" id="comments" placeholder="No more than 250 characters long -- but be sure to use lots of superlatives."></textarea>
+      </label>
+      </p>
+      <input type="submit" value="Get My Pizza on the Way!"> <input type="reset" value="Reset">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+body{
+	background-color:#e8e0c5;
+}
+		
+div.gamearea{
+	background-color:#7ba0ca;
+	border-radius:300px;
+	width:800px;
+	height:300px;
+	font-family:Georgia, Times, serif;
+    line-height:1.4em;
+	margin:300px auto;
+	padding:50px;
+	text-align:center;
+}
+		
+div.thankarea{
+	background-color:#7ba0ca;
+	border-radius:50px;
+	width:400px;
+	font-family:Georgia, Times, serif;
+    line-height:1.4em;
+	margin:300px auto;
+	padding:50px;
+	text-align:center;
+}
+
+h1.gametitle{
+	color:#dddddd;
+	line-height:2em;
+}
+
+p.message{
+	color:#ffffff;
+}
